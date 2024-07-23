@@ -35,7 +35,7 @@ body {
     align-items: center;
 }
 
-.logo img{
+.logo svg{
     padding: 0.5vw;
     width: 1.8vw;
 }
@@ -113,4 +113,18 @@ body {
     height: 2vw;
     border: solid 1px var(--roxo);
     border-radius: 2vw;
+}
+
+
+.icon-path {
+    transition: fill 0.2s;
+}
+
+.redes:hover {
+    background-color: var(--roxo);
+    transition: ease 0.2s;
+}
+
+.redes:hover .icon-path {
+    fill: #fff;
 }
