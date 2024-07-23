@@ -35,8 +35,9 @@ body {
     align-items: center;
 }
 
-.logo i{
+.logo img{
     padding: 0.5vw;
+    width: 1.8vw;
 }
 
 
@@ -69,5 +70,47 @@ body {
     color: var(--roxo);
 }
 
+.home{
 
+}
 
+.home{
+    color: var(--texto-secundario);
+    font: normal 700 1.3vw 'JetBrains Mono', sans-serif;
+    width: 50%;
+    margin: 15dvh auto;
+}
+
+.home h2{
+    color: var(--texto);
+    font-size: 2.3vw;
+}
+
+.home-nome{
+    color: var(--roxo);
+    font-size: 3vw;
+}
+
+.social{
+    width: 30%;
+    padding: 0;
+    margin-top: 15vh;
+}
+
+.social ul{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social li{
+    padding: 0.8vw;
+    margin: 0;
+    list-style: none;
+    width: 2vw;
+    height: 2vw;
+    border: solid 1px var(--roxo);
+    border-radius: 2vw;
+}
