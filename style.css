@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor-fundo: #151515;
+    --cor-itens: #191919;
+    --cor-section: #1E1E1E;
+    --roxo: #6241DA;
+    --texto: #fff;
+    --texto-secundario: #777C8B;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-fundo);
+    color: var(--texto);
+}
+
+#header{
+    font: normal 700 1em 'Montserrat', monospace;
+    background-color: var(--roxo);
+    color: var(--texto);
+    height: 12dvh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-itens);
+}
+
+.logo{
+    margin: 0 7vw;
+    display: flex;
+    align-items: center;
+}
+
+.logo svg{
+    padding: 0.5vw;
+    width: 1.8vw;
+}
+
+
+.nav{
+    font: normal 700 1em 'JetBrains Mono', sans-serif;
+    width: 40%;
+    margin: 0 7vw;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-content: center;
+    padding: 0.7vw;
+}
+
+.nav li{
+    
+}
+.nav-link a {
+    display: flex;
+    align-items: center;
+    color: var(--texto);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav li:hover a{
+    color: var(--roxo);
+}
+
+.home{
+
+}
+
+.home{
+    color: var(--texto-secundario);
+    font: normal 700 1.3vw 'JetBrains Mono', sans-serif;
+    width: 50%;
+    margin: 15dvh auto;
+}
+
+.home h2{
+    color: var(--texto);
+    font-size: 2.3vw;
+}
+
+.home-nome{
+    color: var(--roxo);
+    font-size: 3vw;
+}
+
+.social{
+    width: 30%;
+    padding: 0;
+    margin-top: 15vh;
+}
+
+.social ul{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social li{
+    padding: 0.8vw;
+    margin: 0;
+    list-style: none;
+    width: 2vw;
+    height: 2vw;
+    border: solid 1px var(--roxo);
+    border-radius: 2vw;
+}
+
+
+.icon-path {
+    transition: fill 0.2s;
+}
+
+.redes:hover {
+    background-color: var(--roxo);
+    transition: ease 0.2s;
+}
+
+.redes:hover .icon-path {
+    fill: #fff;
+}
