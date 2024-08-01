@@ -8,6 +8,7 @@
     --roxo: #6241DA;
     --texto: #fff;
     --texto-secundario: #777C8B;
+    --cor-espacamento: #17161D;
     
 }
 
@@ -127,4 +128,120 @@ body {
 
 .redes:hover .icon-path {
     fill: #fff;
+}
+
+
+.space1{
+    height: 15vh;
+    background-color: var(--cor-espacamento);
+    margin: 20vh 0;
+}
+
+
+.proj-title{
+    font:normal 700 2vw 'JetBrains Mono', monospace;
+    margin: 10vh auto;
+    display:flex;
+    justify-content: center;
+}
+
+#projetos{
+    display: flex;
+    justify-content: center;
+}
+
+.projeto-frs{
+    width: 85%;
+    background: #191919;
+    filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
+    margin: 8vw;
+    padding: 3vw;
+}
+
+.proj-img{
+    display: flex;
+    margin: 3vw auto;
+    width: 95%;
+}
+
+.projeto-frs h2{
+    font-family: 'JetBrains Mono', sans-serif;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--texto);
+}
+
+.projeto-frs p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.1vw;
+    line-height: 1.4;
+    color: var(--texto-secundario);
+    margin-bottom: 5vh;
+}
+
+.proj-content{
+    margin: 0 4vw;
+}
+
+.proj-tech h3{
+    font-family: 'JetBrains Mono', sans-serif;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--texto);
+    margin-top: 7vh;
+}
+
+.proj-tech-icon{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.proj-btn{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 53vw;
+    top: 89%;    
+    width: 27%;
+    padding: 1vw 0;
+}
+
+
+.btn-website, .btn-more{
+    background-color: var(--roxo);
+    border: none;
+    background: #6241DA;
+    border-radius: 0.5vw;
+    color: var(--texto);
+    font: normal 700 1.3vw 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj-btn span{
+    margin: 0.7vw;
+}
+
+.btn-more{
+    width: 12vw;
+    height: 6vh;
+}
+
+.btn-website{
+    width: 7.5vw;
+    height: 6vh;
+}
+
+.proj-btn :hover{
+    background-color: #4728a4;
+    transition: all 0.3s ease;
 }
