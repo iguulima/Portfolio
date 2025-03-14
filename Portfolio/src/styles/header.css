@@ -1,0 +1,30 @@
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--section-color);
+    padding: 0.3rem 1rem;
+    font-family: 'Montserrat', system-ui, Helvetica, Arial, sans-serif;;
+}
+
+.logo{
+    width: 3rem;
+    margin-left: 2rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 40%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-gray);
+}
+
+.navbar li:hover{
+    color: var(--text-principal);
+    transition: 0.4s;
+    cursor: pointer;
+}

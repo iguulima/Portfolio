@@ -1,0 +1,109 @@
+.hero-sec {
+    font-family: "Roboto Mono", system-ui, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 89vh;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;       
+    font-weight: lighter;
+}
+
+.data :is(h1, h2, h4) {
+    margin: 0;
+}
+
+.data h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0 0 1rem 0;
+}
+
+.data h2 {
+    color: var(--text-secondary);
+    font-size: 1.5rem;
+}
+
+.data h4 {
+    color: var(--text-gray);
+    margin: 1rem;
+}
+
+.location {
+    display: flex;
+    gap: 0.7rem;
+    margin-bottom: 7vh;
+
+}
+
+/* --------------------- Social Icons --------------------- */
+
+.social{
+    width: 30%;
+    padding: 0;
+    width: 10rem;
+}
+
+.social ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.social li{
+    padding: 0.7vw;
+    margin: 0;
+    list-style: none;
+    width: 1.7vw;
+    height: 1.7vw;
+    border: var(--text-secondary) solid 2px;
+    border-radius: 2vw;
+}
+
+.cv {
+    width: 12rem;
+    height: 2.7rem;
+    border: solid 2px var(--text-secondary);
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv a{
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: var(--text-secondary);
+}
+
+/* --------------------- Hover Effects --------------------- */
+
+.social li:hover{
+    background-color: var(--text-principal);
+    border: var(--text-principal) solid 2px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.social li:hover path{
+    fill: var(--bg-color);
+    transition: 0.4s;
+}
+
+.cv:hover{
+    background-color: var(--text-principal);
+    border: var(--text-principal) solid 2px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.cv:hover h3{
+    color: var(--bg-color);
+    transition: 0.4s;
+}
