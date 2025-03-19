@@ -23,8 +23,11 @@
     color: var(--text-gray);
 }
 
+.navbar li{
+    transition: ease-in-out 0.2s;
+}
+
 .navbar li:hover{
     color: var(--text-principal);
-    transition: 0.4s;
     cursor: pointer;
 }

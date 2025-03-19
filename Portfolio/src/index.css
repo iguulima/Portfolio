@@ -22,6 +22,7 @@
   --text-principal: #ffffff;
   --text-secondary: #D1D1D1;
   --card-color: #222222;
+  --transparent-bg: #00000050;
 }
 
 body {

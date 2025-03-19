@@ -1,7 +1,7 @@
 
 import "../styles/header.css";
 
-import igorLogo from '../assets/logo.svg'; 
+import igorLogo from '../assets/icons/logo.svg'; 
 
 
 const Header = () => {

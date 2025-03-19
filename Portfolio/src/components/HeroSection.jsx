@@ -4,8 +4,8 @@ import React from 'react'
 import '../styles/hero.css'
 
 // Images
-import brasilFlag from '../assets/br-flag.svg'	
-import locationDot from '../assets/loc-dot.svg'
+import brasilFlag from '../assets/icons/br-flag.svg'	
+import locationDot from '../assets/icons/loc-dot.svg'
 
 const HeroSection = () => {
   return (
@@ -47,6 +47,7 @@ const HeroSection = () => {
         </div>
         <div className='cv'><a href=""><h3>Ver Curriculo</h3></a></div>
       </div>
+
     </div>
   )
 }
