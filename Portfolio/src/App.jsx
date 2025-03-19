@@ -3,6 +3,7 @@ import { useState } from 'react'
 //Components
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
+import Tech from './components/Tech';
 
 // Styles
 import reactLogo from './assets/icons/react.svg'
@@ -17,6 +18,7 @@ function App() {
         <Header />
         <div class="fixed-background"></div>
         <HeroSection />
+        <Tech/>
         <br />
         <br />
         <br />

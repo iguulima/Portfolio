@@ -3,9 +3,10 @@
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: var(--section-color);
+    background-color: var(--bg-color);
     padding: 0.3rem 1rem;
     font-family: 'Montserrat', system-ui, Helvetica, Arial, sans-serif;;
+
 }
 
 .logo{
@@ -24,10 +25,11 @@
 }
 
 .navbar li{
-    transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.3s;
 }
 
 .navbar li:hover{
     color: var(--text-principal);
     cursor: pointer;
+    transform: scale(1.05);
 }

@@ -16,6 +16,7 @@
     background-size: cover;
     background-position: bottom;
     z-index: -1;
+    filter: blur(1.2px);
   }
   
 
@@ -81,6 +82,7 @@
     border: var(--text-secondary) solid 2px;
     border-radius: 2vw;
     background-color: var(--transparent-bg);
+    transition: background-color 0.2s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .cv {
@@ -105,13 +107,14 @@
 .social li:hover{
     background-color: var(--text-principal);
     border: var(--text-principal) solid 2px;
-    transition: 0.4s;
     cursor: pointer;
+    transform: scale(1.15);
+    
 }
 
 .social li:hover path{
     fill: var(--bg-color);
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .cv:hover{

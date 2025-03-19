@@ -23,9 +23,11 @@
   --text-secondary: #D1D1D1;
   --card-color: #222222;
   --transparent-bg: #00000050;
+  --icon-bg: #474747;
+  --card-hover: #A0A0A0;
 }
 
 body {
   margin: 0;
-  width: 100vw;
+  padding: 0;
 }
