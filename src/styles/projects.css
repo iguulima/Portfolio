@@ -1,0 +1,39 @@
+.main{
+    width: 75%;
+    margin: 10vh auto;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardProj{
+    width: 35vw;
+    height: 55vh;
+    border-radius: 10px;
+    background-color: var(--proj-card-bg);
+    border: solid 0.1px var(--card-proj-border);
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-text{
+    margin: 2vw 1.7vw;
+}
+
+
+.card-text h4{
+    font-weight:500 ;
+    color: var(--text-principal);
+    margin-bottom: 0.5vw;
+}
+.card-text h5{
+    font-weight:500 ;
+    color: var(--text-secondary);
+    margin: 0;
+}

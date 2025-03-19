@@ -8,6 +8,7 @@ import Tech from './components/Tech';
 // Styles
 import reactLogo from './assets/icons/react.svg'
 import './App.css'
+import Projects from './components/Projects';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,44 +19,8 @@ function App() {
         <Header />
         <div class="fixed-background"></div>
         <HeroSection />
-        <Tech/>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        {/* <Tech/> */}
+        <Projects/>
       </div>
     </>
   )
