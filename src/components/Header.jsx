@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 import "../styles/header.css";
 
@@ -9,15 +10,13 @@ const Header = () => {
     return (
         <div className="header">
             <img src={igorLogo} alt="Logo do Igor" className="logo"/>
-            <ul className="navbar">
-                <li>Tecnologias</li>
-                <li>Projetos</li>
-                <li>Experiencia</li>
-                <li>Sobre Mim</li>
-            </ul>
+            <nav className="navbar">
+                <Link className="nav-link" to="/">Home</Link>
+                <Link className="nav-link" to="/">Projetos</Link>
+                <Link className="nav-link" to="/tech">Tecnologias</Link>
+                <Link className="nav-link" to="/">Sobre Mim</Link>
+            </nav>
         </div>
     )
-
 }
-
 export default Header;

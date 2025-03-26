@@ -3,10 +3,10 @@
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: var(--bg-color);
-    padding: 0.3rem 1rem;
+    padding: 0.7rem 1rem;
     font-family: 'Montserrat', system-ui, Helvetica, Arial, sans-serif;;
-
 }
 
 .logo{
@@ -17,19 +17,19 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     list-style: none;
     width: 40%;
-    font-size: 1rem;
-    font-weight: 500;
-    color: var(--text-gray);
 }
 
-.navbar li{
+.nav-link{
+    color: var(--text-gray);
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
     transition: ease-in-out 0.3s;
 }
 
-.navbar li:hover{
+.nav-link:hover{
     color: var(--text-principal);
-    cursor: pointer;
-    transform: scale(1.05);
 }

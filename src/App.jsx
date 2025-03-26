@@ -1,29 +1,28 @@
-import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-//Components
+// Components
 import Header from './components/Header';
-import HeroSection from './components/HeroSection';
 import Tech from './components/Tech';
 
+// Pages
+import Home from './pages/Home';
+
 // Styles
-import reactLogo from './assets/icons/react.svg'
-import './App.css'
-import Projects from './components/Projects';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
+    <div>
+      <BrowserRouter>
         <Header />
-        <div class="fixed-background"></div>
-        <HeroSection />
-        {/* <Tech/> */}
-        <Projects/>
-      </div>
-    </>
-  )
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/tech' element={<Tech />} />
+        </Routes>
+      </BrowserRouter>
+      <div className="fixed-background"></div>
+    </div>
+  );
 }
 
-export default App
+export default App;
