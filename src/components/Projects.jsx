@@ -23,6 +23,10 @@ const Projects = () => {
           <div className='card-text'>
             <h4>SD Locacoes</h4>
             <h5>Sistema mobile feito para automatizar o sistema de locacoes da usina</h5>
+            <div className="card-tags">
+              <h6>React Native</h6>
+              <h6>Expo</h6>
+            </div>
           </div>
         </div>
 
@@ -31,6 +35,10 @@ const Projects = () => {
           <div className='card-text'>
             <h4>SD Locacoes</h4>
             <h5>Sistema mobile feito para automatizar o sistema de locacoes da usina</h5>
+            <div className="card-tags">
+              <h6>React Native</h6>
+              <h6>Expo</h6>
+            </div>
           </div>
         </div>
       </div>

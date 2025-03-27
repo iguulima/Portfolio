@@ -43,11 +43,10 @@
 
 .cardProj{
     width: 32vw;
-    height: 55vh;
+    height: auto;
     border-radius: 10px;
     background-color: var(--proj-card-bg);
     border: solid 0.1px var(--card-proj-border);
-    
 }
 
 .card-img{
@@ -59,7 +58,6 @@
     margin: 2vw 1.7vw;
 }
 
-
 .card-text h4{
     font-weight:500 ;
     color: var(--text-principal);
@@ -69,4 +67,19 @@
     font-weight:500 ;
     color: var(--text-secondary);
     margin: 0;
+}
+
+.card-tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5vw;
+    margin: 1vw 0 2vw 0;
+}
+
+.card-tags h6{
+    margin: 0;
+    color: var(--text-principal);
+    background-color: var(--bg-color);
+    padding: 0.2vw 0.7vw;
+    border-radius: 1vw;
 }
