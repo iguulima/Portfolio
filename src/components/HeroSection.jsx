@@ -47,7 +47,7 @@ const HeroSection = () => {
         </div>
         <div className='cv'><a href=""><h3>Ver Curriculo</h3></a></div>
       </div>
-
+      <div className="fixed-background"></div>
     </div>
   )
 }

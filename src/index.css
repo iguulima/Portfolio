@@ -18,7 +18,7 @@
 
   --bg-color: #151515;
   --section-color: #121212;
-  --text-gray: #777c8b;
+  --text-gray: #989898;
   --text-principal: #ffffff;
   --text-secondary: #D1D1D1;
   --card-color: #222222;
@@ -28,6 +28,15 @@
   --card-bg-hover: #404040;
   --proj-card-bg: #1C1C1C;
   --card-proj-border: #303030;
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--card-bg-hover);
+    border-radius: 10px;
+  }
 }
 
 body {
