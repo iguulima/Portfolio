@@ -1,12 +1,12 @@
 import HeroSection from "../components/HeroSection"
-import Projects from "../components/Projects"
 import Experience from "../components/Experience"
+import HomeProjects from "../components/homeProjects"
 
 const Home = () => {
   return (
     <div>
         <HeroSection />
-        <Projects />
+        <HomeProjects />
         <Experience />
     </div>
   )

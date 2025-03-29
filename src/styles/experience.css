@@ -1,12 +1,23 @@
 .exp-main{
     width: 60%;
     margin: 0 auto;
-    border: solid 1px var(--card-proj-border);
-    border-top: none;
-    border-radius: 0.7rem;
 }
 
-.exp-title{
+.exp-main h2{
+    margin: 0;
+    padding: 0;
+}
+
+.exp-subtitle{
+    margin: 1vh 0 5vh 0!important;
+
+}
+
+.exp-main h5{
+    font-weight:500 ;
+    color: var(--text-secondary);
+}
+.exp-btn{
     display: flex;
     justify-content: space-between;
 
@@ -21,7 +32,7 @@
     font-weight: 600;
     padding: 0.7vw 0.5vw;
     border: solid 1px var(--card-proj-border);
-    border-radius: 1rem;
+    border-radius: 1rem 1rem 1rem 0;
     transition: 0.2s ease-in-out;
 }
 
@@ -29,13 +40,23 @@
     background-color: var( --card-color);
 }
 
+#exp-particles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+  
+
 .exp-content{
     padding: 1vw 2vw;
-    border-radius: 0.7rem;
     height: 50vh;
     max-height: 50vh;
     overflow-x: auto;
-
+    border: solid 1px var(--card-proj-border);
+    border-top: none;
+    border-radius: 0 0 0.7rem 0.7rem;
+    background-color: var(--bg-color);
 }
 
 .exp-scontent{
