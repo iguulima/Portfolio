@@ -1,6 +1,6 @@
 import HeroSection from "../components/HeroSection"
 import Experience from "../components/Experience"
-import HomeProjects from "../components/homeProjects"
+import HomeProjects from "../components/HomeProjects"
 import Logos from "../components/Logos"
 
 import '../styles/tech.css'
