@@ -11,9 +11,10 @@ const HeroSection = () => {
   return (
     <div className='hero-sec'>
       <div className='data'>
-        <h4>Estudante de Gestão da Tecnologia da Informação</h4>
         <h2>Olá! sou</h2>
         <h1>Igor Lima</h1>
+        <h2>Desenvolvedor Front-End</h2>
+        <br />
         <span className='location'>
           <img src={locationDot} alt="Ponto de Localização" />
           <h4>Catanduva,SP</h4>
@@ -37,15 +38,18 @@ const HeroSection = () => {
                 </li>
             </a>
 
-            <a href="https://x.com/igorlkkk" target="_blank">
+
+            {/* Fazer com que esse icon copie o email para a area de transferencia e exiba um modalzin em cima avisando que foi copiado*/}
+            <a href="igorlima7194@gmail.com" target="_blank">
                 <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" alt="Twitter Page">
-                    <path fill="#D1D1D1" d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"/></svg>
+                  <svg width="22" height="16" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.6753 6.5791C24.8657 6.42773 25.1489 6.56934 25.1489 6.80859V16.7939C25.1489 18.0879 24.0991 19.1377 22.8052 19.1377H2.49268C1.19873 19.1377 0.148926 18.0879 0.148926 16.7939V6.81348C0.148926 6.56934 0.427246 6.43262 0.622559 6.58398C1.71631 7.43359 3.1665 8.5127 8.14697 12.1309C9.17725 12.8828 10.9155 14.4648 12.6489 14.4551C14.3921 14.4697 16.1646 12.8535 17.1558 12.1309C22.1362 8.5127 23.5815 7.42871 24.6753 6.5791ZM12.6489 12.8877C13.7817 12.9072 15.4126 11.4619 16.2329 10.8662C22.7124 6.16406 23.2056 5.75391 24.6997 4.58203C24.9829 4.3623 25.1489 4.02051 25.1489 3.65918V2.73145C25.1489 1.4375 24.0991 0.387695 22.8052 0.387695H2.49268C1.19873 0.387695 0.148926 1.4375 0.148926 2.73145V3.65918C0.148926 4.02051 0.314941 4.35742 0.598145 4.58203C2.09229 5.74902 2.58545 6.16406 9.06494 10.8662C9.88525 11.4619 11.5161 12.9072 12.6489 12.8877Z" fill="#D1D1D1"/>
+                  </svg>
                 </li>
             </a>
           </ul>
         </div>
-        <div className='cv'><a href=""><h3>Ver Curriculo</h3></a></div>
+        <div className='cv'><a href="/curriculo.pdf" target='_blank'><h3>Ver Curriculo</h3></a></div>
       </div>
       <div className="fixed-background"></div>
     </div>

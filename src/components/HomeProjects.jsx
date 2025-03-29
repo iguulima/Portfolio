@@ -20,7 +20,7 @@ const HomeProjects = () => {
           </svg>
         </Link>
       </div>
-      <div className='cards'>
+      <div className='home-cards'>
         <Link to='/proj/alocacaoSD' className="cardProj">
           <img src={tgImg} alt="Telas TG" className='card-img'/>
           <div className='card-text'>

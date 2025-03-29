@@ -31,7 +31,6 @@
     background-color: var(--proj-card-bg);
     border-radius: 2rem;
     transition: ease-in-out 0.2s;
-
     display: flex;
     align-items: center;
 }
@@ -46,14 +45,15 @@
     border: solid 1px var(--card-border-hover);
 }
 
-.cards{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.home-cards{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
     gap: 3vw;
 }
 
-.cardProj{
-    width: 32vw;
+.home-cards .cardProj{
+    width: 35vw;
     height: auto;
     border-radius: 10px;
     background-color: var(--proj-card-bg);
@@ -61,6 +61,16 @@
     text-decoration: none;
     transition: ease-in-out 0.2s;
 }
+
+.cardProj{
+    height: auto;
+    border-radius: 10px;
+    background-color: var(--proj-card-bg);
+    border: solid 0.1px var(--card-proj-border);
+    text-decoration: none;
+    transition: ease-in-out 0.2s;
+}
+
 
 .cardProj:hover{
     transform: scale(1.03);

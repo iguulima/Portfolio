@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // Components
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 // Pages
 import Home from './pages/Home';
@@ -11,7 +12,6 @@ import Projects from './pages/Projects';
 import ParticlesComponent from './components/Particle';
 
 // Styles
-import './App.css';
 
 function App() {
   return (
@@ -24,11 +24,8 @@ function App() {
           <Route path='/proj' element={<Projects />} />
           <Route path='/tech' element={<Tech />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
-      <br />
-      <br />
-      <br />
-      <br />
     </div>
   );
 }
