@@ -1,0 +1,10 @@
+.homeTech, .proj-main, .exp-main{
+    margin-top: 15vh;
+}
+
+@media (max-width: 414px){
+    .homeTech-cards{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}

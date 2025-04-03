@@ -42,7 +42,7 @@
     border-radius: 0.7rem;
     background-color: var(--bg-color);
     border: solid 1px transparent;
-    transition: 0.2s ease-in-out
+    transition: 0.2s ease-in-out;
 }
 
 .card:hover{
@@ -53,7 +53,6 @@
 
 .card:hover .tech-img{
     background-color: var(--card-proj-border);
-    
 }
 
 .tech-text h4, .tech-text h5{
@@ -80,49 +79,3 @@
 .tech-img img{
     width: 15px;
 }
-
-/* Homepage */
-
-.homeTech{
-    margin: 10vh auto;
-    width: 70%;
-    background-color: var(--card-color);
-    border-radius: 1rem;
-}
-
-.homeTech-title{
-    padding: 2vw;
-}
-
-.homeTech-title h2, .homeTech-title h5{
-    margin: 0;
-    padding: 0;
-}
-
-.homeTech-title h5{
-    font-weight: 600;
-    color: var(--text-secondary);
-}
-
-.homeTech-cards{
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2vw;
-    background-color: var(--bg-color);
-    border: solid 2px var(--card-proj-border);
-    border-radius: 1vw;
-    padding: 1vw;
-}
-
-.homeTech-cards h6{
-    font-weight: 600;
-    color: var(--text-gray);
-    margin: 0.5vh 0;
-}
-
-.homeTech-cards a{
-    text-decoration: none;
-    color: var(--text-color);
-}
-

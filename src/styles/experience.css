@@ -87,3 +87,8 @@
     font-weight: 600;
 }
 
+@media(max-width: 414px){
+    .exp-main{
+        width: 85%;
+    }
+}

@@ -1,23 +1,21 @@
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom"
 
-import Logos from "../components/Logos";
+import Icons from "../components/ui/Icons"
 
-import "../styles/header.css";
-
-
+import "../styles/header.css"
 
 const Header = () => {
-
-    return (
-        <div className="header">
-            <img src={Logos.igor} alt="Logo do Igor" className="logo"/>
-            <nav className="navbar">
-                <Link className="nav-link" to="/">Home</Link>
-                <Link className="nav-link" to="/proj">Projetos</Link>
-                <Link className="nav-link" to="/tech">Tecnologias</Link>
-                <Link className="nav-link" to="/about">Sobre Mim</Link>
-            </nav>
-        </div>
-    )
+  return (
+    <header>
+        <img src={Icons.igor} alt="" />
+        <nav>
+            <Link className="nav-link" to="/">Home</Link>
+            <Link className="nav-link" to="/proj">Projetos</Link>
+            <Link className="nav-link" to="/tech">Tecnologias</Link>
+            <Link className="nav-link" to="/sobre">Sobre mim</Link>
+        </nav>
+    </header>
+  )
 }
-export default Header;
+
+export default Header

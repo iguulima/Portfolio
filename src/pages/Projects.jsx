@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import "../styles/homeProjects.css";
-import "../styles/projects.css";
+import "../pages/projects.css";
 
 import tgImg from "../assets/images/tg.png";
 
@@ -13,7 +13,7 @@ const Projects = () => {
       description: "Sistema mobile feito para automatizar o sistema de locacoes da usina",
       tags: ["React Native", "Expo",],
       image: tgImg,
-      link: "/proj/alocacaoSD",
+      link: "/proj/usdLocacao",
     },
     {
       id: 2,
@@ -23,6 +23,13 @@ const Projects = () => {
       image: tgImg,
       link: "/proj/outroProjeto",
     },
+    {
+      id: 3,
+      title: "ProcuraTech",
+      tags: ["Figma", "Prototipagem"],
+      image: tgImg,
+      link: "/proj/procuraTech"
+    }
   ];
 
   return (

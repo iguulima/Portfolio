@@ -9,7 +9,10 @@ import Home from './pages/Home';
 import Tech from './pages/Tech';
 import Projects from './pages/Projects';
 
-import ParticlesComponent from './components/Particle';
+//ProjectsPage
+
+
+import ParticlesComponent from './components/ui/Particle';
 
 // Styles
 

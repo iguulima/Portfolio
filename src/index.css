@@ -17,14 +17,13 @@
   -moz-osx-font-smoothing: grayscale;
 
   --bg-color: #151515;
-  --section-color: #121212;
-  --text-gray: #989898;
   --text-principal: #ffffff;
   --text-secondary: #D1D1D1;
+  --purple-color: #692BD8;
+  --purple-light: #976ce4;
+  --text-gray: #989898;
   --card-color: #222222;
   --transparent-bg: #151515bf;
-  --icon-bg: #474747;
-  --card-border-hover: #A0A0A0;
   --card-bg-hover: #404040;
   --proj-card-bg: #1C1C1C;
   --card-proj-border: #303030;
@@ -39,7 +38,12 @@
   }
 }
 
-body {
+
+html, body {
   margin: 0;
   padding: 0;
+}
+
+a{
+  text-decoration: none;
 }

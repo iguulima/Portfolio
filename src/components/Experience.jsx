@@ -1,6 +1,5 @@
 import { useState } from 'react';
 
-import ParticlesComponent from './Particle';
 
 import '../styles/experience.css';
 
@@ -21,9 +20,7 @@ function Experience() {
       </h5>
       <div className="exp-btn">
         <button
-          className="btn"
-          style={{ ...estiloBtn(experience === 1), borderRadius: '1rem 1rem 1rem 0' }}
-          onClick={() => setExperience(1)}
+          className="btn" style={{ ...estiloBtn(experience === 1), borderRadius: '1rem 1rem 1rem 0' }} onClick={() => setExperience(1)}
         >
           Profissional
         </button>

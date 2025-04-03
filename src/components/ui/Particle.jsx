@@ -317,7 +317,7 @@ const ParticlesComponent = (props) => {
             "mode": "delete",
             "value": 0
           },
-          "value": 160
+          "value": 300
         },
         "opacity": {
           "value": {
@@ -356,8 +356,8 @@ const ParticlesComponent = (props) => {
         },
         "size": {
           "value": {
-            "min": 1,
-            "max": 3
+            "min": 0.5,
+            "max": 1.5
           },
           "animation": {
             "count": 0,

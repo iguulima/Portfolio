@@ -1,0 +1,91 @@
+@import url('../pages/tech.css');
+
+.homeTech{
+    margin: 10vh auto;
+    width: 70%;
+    background-color: var(--card-color);
+    border-radius: 1rem;
+}
+
+.homeTech-title{
+    padding: 2vw;
+}
+
+.homeTech-title h2, .homeTech-title h5{
+    margin: 0;
+    padding: 0;
+}
+
+.homeTech-title h5{
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.homeTech-cards{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vw;
+    background-color: var(--bg-color);
+    border: solid 2px var(--card-proj-border);
+    border-radius: 1vw;
+    padding: 1vw;
+}
+
+.homeTech-cards h6{
+    font-weight: 600;
+    color: var(--text-gray);
+    margin: 0.5vh 0;
+}
+
+.homeTech-cards a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+@media (max-width:414px){
+    .homeTech{
+        width: 90%;
+        border-radius: 1rem;
+    }
+    
+    .homeTech-title{
+        padding: 4vw;
+    }
+
+    .homeTech-title h5{
+        margin-top: 0.7vh;
+    }
+    
+    .homeTech-cards{
+        grid-template-columns: repeat(2, 1fr);
+        border-radius: 1rem;
+        padding: 3vw;
+        gap: 3vw;
+    }
+    
+    .homeTech-cards h6{
+        display: none;
+    }
+
+    .tech-text{
+        font-size: 0.9rem;
+    }
+    
+    .homeTech-cards a{
+        text-decoration: none;
+        color: var(--text-color);
+    }
+
+    .card{
+        background-color: var(--proj-card-bg);
+    }
+
+    
+    .tech-img{
+        margin: 0.7rem;
+        background-color: var(--card-color);
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
