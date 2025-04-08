@@ -1,6 +1,6 @@
 import figmaIcon from '../../assets/icons/figma.svg'
 import vscodeIcon from '../../assets/icons/vscode.svg'
-import igorIcon from "../../assets/icons/Logo.svg"
+import igorIcon from "../../assets/icons/logo.svg"
 import cogIcon from "../../assets/icons/cog.svg"
 import flagIcon from "../../assets/icons/br-flag.svg"
 import locIcon from "../../assets/icons/loc-dot.svg"
