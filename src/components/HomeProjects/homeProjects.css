@@ -54,7 +54,7 @@
 
 
 .cardProj{
-    width: 40vw !important;
+    width: 40vw;
     height: auto;
     border-radius: 10px;
     background-color: var(--proj-card-bg);
@@ -63,6 +63,16 @@
     transition: ease-in-out 0.2s;
 }
 
+.large-card{
+    width: 40vw;
+    height: auto;
+    border-radius: 10px;
+    background-color: var(--proj-card-bg);
+    border: solid 0.1px var(--card-proj-border);
+    text-decoration: none;
+    transition: ease-in-out 0.2s;
+    border: solid red;
+}
 
 .cardProj:hover{
     transform: scale(1.03);

@@ -7,6 +7,7 @@ import './homeProjects.css'
 
 //Imagens
 import tgImg from '../../assets/images/tg.png'
+import usdImg from '../../assets/images/UsdApp.png'
 
 const HomeProjects = () => {
   return (
@@ -14,7 +15,7 @@ const HomeProjects = () => {
       <div className="proj-header">
         <div>
           <h2>Meus Projetos</h2>
-          <h5>Texto</h5>
+          <h5>Uma amostra dos meus melhores trabalhos até agora</h5>
         </div>
         <Link to='/proj' className='proj-link'><span>Ver Todos</span>
           <svg width="12" height="12" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -23,14 +24,14 @@ const HomeProjects = () => {
         </Link>
       </div>
       <div className='home-cards'>
-        <ProjCard
-          id="1"
-          title="Projeto teste"
-          description="teste foda"
-          tags={["React", "Teste"]}
-          image={tgImg}
-          link="/proj/usd"
-        />
+      <ProjCard
+        title="App Usina São Domingos"
+        description="Aplicativo mobile para automatizar o controle de locações em usinas, substituindo planilhas manuais por um sistema eficiente e em tempo real."
+        tags={["React Native", "Figma"]}
+        image={usdImg}
+        link="/proj/usd"
+        style={{ width: "40vw" }}
+      />
 
         <ProjCard
           id="1"
@@ -39,6 +40,7 @@ const HomeProjects = () => {
           tags={["React", "Teste"]}
           image={tgImg}
           link="/proj/usd"
+          style={{ width: "40vw" }}
         />
       </div>
     </div>

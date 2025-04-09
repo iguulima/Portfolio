@@ -1,21 +1,19 @@
 import ProjCard from "../components/ProjCard";
-import "../components/HomeProjects/homeProjects.css";
-import "../pages/projects.css";
+import '../components/HomeProjects/homeProjects.css';
 
+import usdImg from "../assets/images/UsdApp.png";
 import tgImg from "../assets/images/tg.png";
 
 const Projects = () => {
   const projects = [
     {
-      id: "1",
-      title: "Projeto teste",
-      description: "teste foda",
-      tags: ["React", "Teste"],
-      image: tgImg,
+      title: "App Usina São Domingos",
+      description: "App mobile para controle de locações em usinas, eliminando planilhas e agilizando processos.",
+      tags: ["React Native", "Figma"],
+      image: usdImg,
       link: "/proj/usd",
     },
     {
-      id: "2",
       title: "Outro projeto",
       description: "descrição exemplo",
       tags: ["JavaScript", "CSS"],
@@ -23,7 +21,6 @@ const Projects = () => {
       link: "/proj/abc",
     },
     {
-      id: "3",
       title: "Mais um projeto",
       description: "descrição teste",
       tags: ["HTML", "Node.js"],
@@ -34,16 +31,21 @@ const Projects = () => {
 
   return (
     <div>
-      <div className="cards">
+      <div style={{
+        width: "85%",
+        margin: "5vh auto",
+        display: "grid",
+        gridTemplateColumns: "repeat(3, 1fr)",
+        gap: "1vw",
+      }}>
         {projects.map((project) => (
           <ProjCard
-            key={project.id}
-            id={project.id}
             title={project.title}
             description={project.description}
             tags={project.tags}
             image={project.image}
             link={project.link}
+            style={{ width: "27vw" }}
           />
         ))}
       </div>

@@ -11,7 +11,7 @@ header img{
 
 nav{
     font-family: 'Montserrat', system-ui, Helvetica, Arial, sans-serif;;
-    width: 35%;    
+    width: 40%;    
     display: flex;
     justify-content: space-between;
 }

@@ -38,11 +38,13 @@
 
 .card{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     border-radius: 0.7rem;
     background-color: var(--bg-color);
     border: solid 1px transparent;
     transition: 0.2s ease-in-out;
+
 }
 
 .card:hover{
@@ -53,6 +55,10 @@
 
 .card:hover .tech-img{
     background-color: var(--card-proj-border);
+}
+
+.tech-text{
+    width: 80%;;
 }
 
 .tech-text h4, .tech-text h5{
@@ -66,14 +72,14 @@
 }
 
 .tech-img{
-    width: 3rem;
-    height: 3rem;
+    width: 50px;
+    height: 50px;
     background-color:var(--proj-card-bg);
     display: grid;
     place-items: center;
     border-radius: 0.7rem;
     margin: 1rem;
-    transition: 0.2s ease-in-out
+    transition: 0.2s ease-in-out;
 }
 
 .tech-img img{

@@ -1,9 +1,9 @@
 import '../components/HomeProjects/homeProjects.css';
 import { Link } from 'react-router-dom';
 
-const ProjCard = ({ id, title, description, tags, image, link }) => {
+const ProjCard = ({ title, description, tags, image, link, style }) => {
     return (
-        <Link to={link} className="cardProj" key={id}>
+        <Link to={link} className="cardProj" style={style}>
             <img src={image} alt={`Imagem do projeto ${title}`} className="card-img" />
             <div className="card-text">
                 <h4>{title}</h4>
