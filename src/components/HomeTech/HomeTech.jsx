@@ -1,6 +1,6 @@
-import Icons from '../components/ui/Icons'
+import Icons from '../Icons'
 
-import '../styles/homeTech.css'
+import './homeTech.css'
 
 const HomeTech = () => {
   return (

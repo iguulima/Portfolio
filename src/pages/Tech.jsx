@@ -1,4 +1,4 @@
-import Icons from "../components/ui/Icons"
+import Icons from "../components/Icons"
 
 // Styles
 import '../pages/tech.css'

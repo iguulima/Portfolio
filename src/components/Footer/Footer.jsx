@@ -1,6 +1,6 @@
-import Icons from '../components/ui/Icons'
+import Icons from '../Icons'
 
-import '../styles/footer.css'
+import './footer.css'
 
 const Footer = () => {
   return (

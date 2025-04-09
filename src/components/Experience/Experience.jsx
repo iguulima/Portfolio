@@ -1,7 +1,6 @@
 import { useState } from 'react';
 
-
-import '../styles/experience.css';
+import './experience.css';
 
 function Experience() {
   const [experience, setExperience] = useState(1);

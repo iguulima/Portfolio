@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // Components
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 // Pages
 import Home from './pages/Home';
@@ -12,7 +12,7 @@ import Projects from './pages/Projects';
 //ProjectsPage
 
 
-import ParticlesComponent from './components/ui/Particle';
+import ParticlesComponent from './components/Particle';
 
 // Styles
 

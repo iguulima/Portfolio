@@ -1,8 +1,8 @@
 import {Link} from "react-router-dom"
 
-import Icons from "../components/ui/Icons"
+import Icons from "../../components/Icons"
 
-import "../styles/header.css"
+import "./header.css"
 
 const Header = () => {
   return (

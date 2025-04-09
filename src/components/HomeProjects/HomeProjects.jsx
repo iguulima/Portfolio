@@ -1,10 +1,12 @@
 import {Link} from 'react-router-dom'
 
+import ProjCard from '../ProjCard'
+
 //Styles
-import '../styles/homeProjects.css'
+import './homeProjects.css'
 
 //Imagens
-import tgImg from '../assets/images/tg.png'
+import tgImg from '../../assets/images/tg.png'
 
 const HomeProjects = () => {
   return (
@@ -21,29 +23,23 @@ const HomeProjects = () => {
         </Link>
       </div>
       <div className='home-cards'>
-        <Link to='/proj/usdLocacao' className="cardProj">
-          <img src={tgImg} alt="Telas TG" className='card-img'/>
-          <div className='card-text'>
-            <h4>SD Locacoes</h4>
-            <h5>Sistema mobile feito para automatizar o sistema de locacoes da usina</h5>
-            <div className="card-tags">
-              <h6>React Native</h6>
-              <h6>Expo</h6>
-            </div>
-          </div>
-        </Link>
+        <ProjCard
+          id="1"
+          title="Projeto teste"
+          description="teste foda"
+          tags={["React", "Teste"]}
+          image={tgImg}
+          link="/proj/usd"
+        />
 
-        <Link className="cardProj">
-          <img src={tgImg} alt="Telas TG" className='card-img'/>
-          <div className='card-text'>
-            <h4>SD Locacoes</h4>
-            <h5>Sistema mobile feito para automatizar o sistema de locacoes da usina</h5>
-            <div className="card-tags">
-              <h6>React Native</h6>
-              <h6>Expo</h6>
-            </div>
-          </div>
-        </Link>
+        <ProjCard
+          id="1"
+          title="Projeto teste"
+          description="teste foda"
+          tags={["React", "Teste"]}
+          image={tgImg}
+          link="/proj/usd"
+        />
       </div>
     </div>
   )
