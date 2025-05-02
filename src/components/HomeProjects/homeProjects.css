@@ -113,15 +113,15 @@
     border-radius: 1vw;
 }
 
-@media (max-width: 414px){
+@media (max-width: 1024px){
     .proj-main{
         width: 85%;
     }
 
-    
     .proj-link{
         padding: 4vw;
         background-color: var(--proj-card-bg);
+        border-radius: 10vw
     }
 
     .proj-link span{
@@ -130,8 +130,8 @@
     
     .proj-link svg{
         margin: 0;
-        width: 15px;
-        height: 15px;
+        width: 2.5vw;
+        height: 2.5vw;
     }
     
     .home-cards{

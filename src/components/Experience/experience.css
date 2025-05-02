@@ -87,7 +87,7 @@
     font-weight: 600;
 }
 
-@media(max-width: 414px){
+@media(max-width: 1024px){
     .exp-main{
         width: 85%;
     }

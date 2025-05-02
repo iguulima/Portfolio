@@ -28,7 +28,7 @@ nav{
 }
 
 
-@media (max-width: 414px){
+@media (max-width: 1024px){
     nav{
         display: none;
     }
