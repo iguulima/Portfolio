@@ -10,6 +10,13 @@ import gitIcon from "../assets/icons/git.svg"
 import htmlIcon from "../assets/icons/html.svg"
 import cssIcon from "../assets/icons/css.svg"
 
+import homeBar from "../assets/icons/home.svg"
+import githubBar from "../assets/icons/github.svg"
+import linkedinBar from "../assets/icons/linkedin.svg"
+import mailBar from "../assets/icons/mail.svg"
+import resumeBar from "../assets/icons/resume.svg"
+import moonBar from "../assets/icons/moon.svg"
+
 
 const Icons = {
     figma: figmaIcon,
@@ -23,6 +30,13 @@ const Icons = {
     git: gitIcon,
     html: htmlIcon,
     css: cssIcon,
+
+    homeBar: homeBar,
+    githubBar: githubBar,
+    linkedinBar: linkedinBar,
+    mailBar: mailBar,
+    resumeBar: resumeBar,
+    moonBar: moonBar,
 }
 
 export default Icons

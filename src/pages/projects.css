@@ -11,3 +11,7 @@
 .cardProj{
     width: 27vw;
 }
+
+.card-tags{
+    border: solid red;
+}

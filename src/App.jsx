@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // Components
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import SocialBar from './components/SocialBar/SocialBar'
 
 // Pages
 import Home from './pages/Home';
@@ -22,6 +23,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <ParticlesComponent id="exp-particles" />
+        <SocialBar/>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/proj' element={<Projects />} />

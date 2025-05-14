@@ -69,7 +69,7 @@ function Experience() {
                   <span>Infraestrutura e Redes</span> – Administração de redes, computação em nuvem, servidores
                 </li>
                 <li>
-                  <span>Metodologias Ágeis</span> – Scrum, Kanban, PMBOK, ITIL, COBIT e gestão ágil de equipes.
+                  <span>Metodologias Ágeis</span> – Scrum, Kanban, PMBOK, ITIL.
                 </li>
               </ul>
             </div>

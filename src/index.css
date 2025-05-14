@@ -16,17 +16,20 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --bg-color: #151515;
+  --bg-color: rgb(9, 10, 11);
+  --bar-bg: #0C0D0D;
+  --bar-border: #1B1C1D;
   --text-principal: #ffffff;
   --text-secondary: #D1D1D1;
   --purple-color: #692BD8;
   --purple-light: #976ce4;
+  --purple-tags: #b597ec;
   --text-gray: #989898;
-  --card-color: #222222;
-  --transparent-bg: #151515bf;
+  --card-color: #16181b;
+  --transparent-bg: #101010bf;
   --card-bg-hover: #404040;
-  --proj-card-bg: #1C1C1C;
-  --card-proj-border: #303030;
+  --proj-card-bg: #101214;
+  --card-proj-border: #161717;
 
   ::-webkit-scrollbar {
     width: 8px;
