@@ -9,6 +9,13 @@ import './social.css'
 
 const SocialBar = () => {
 
+  const ScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+
   const { t, i18n } = useTranslation();
 
   const toggleLanguage = () => {
@@ -19,20 +26,20 @@ const SocialBar = () => {
 
   return (
     <div className='social-bar'>
-          <Tooltip text={"Página Inicial"}>
-            <Link to="/"><img src={Icons.homeBar} alt="Icone da Home" /></Link>
+          <Tooltip text={t('homeTooltip')}>
+            <Link to="/" onClick={ScrollToTop}><img src={Icons.homeBar} alt="Icone da Home" /></Link>
           </Tooltip>
         <hr />
         <Tooltip text={"GitHub"}>
           <a href="https://www.github.com/iguulima" target="_black" rel="noopener noreferrer"><img src={Icons.githubBar} alt="Icone do Github" /></a>
         </Tooltip>
         <Tooltip text={"LinkedIn"}>
-          <a href="www.linkedin.com/in/igorlima-s" target="_black" rel="noopener noreferrer"><img src={Icons.linkedinBar} alt="Icone do LinkedIn" /></a>
+          <a href="https://www.linkedin.com/in/igorlima-s" target="_black" rel="noopener noreferrer"><img src={Icons.linkedinBar} alt="Icone do LinkedIn" /></a>
         </Tooltip>
         <Tooltip text={"Email"}>
           <a href="" target="_black" rel="noopener noreferrer"><img src={Icons.mailBar} alt="Icone do Email" /></a>
         </Tooltip>
-        <Tooltip text={"Currículo"}>
+        <Tooltip text={t('resumeTooltip')}>
           <a href="/curriculo.pdf" target="_blank" rel="noopener noreferrer"><img src={Icons.resumeBar} alt="Icone do Curriculo" /></a>
         </Tooltip>
         <hr />

@@ -1,6 +1,8 @@
 {
     "translation": {
-        "langTooltip": "EN-US",
+        "homeTooltip": "Home",
+        "resumeTooltip": "Resume",
+        "langTooltip": "EN",
         "navbar": {
             "home": "Home",
             "projects": "Projects",

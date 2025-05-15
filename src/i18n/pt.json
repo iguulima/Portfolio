@@ -1,6 +1,9 @@
 {
     "translation": {
+        "homeTooltip": "Início",
+        "resumeTooltip": "Currículo",
         "langTooltip": "PT-BR",
+
         "navbar": {
             "home": "Início",
             "projects": "Projetos",
