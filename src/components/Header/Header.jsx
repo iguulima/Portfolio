@@ -1,21 +1,23 @@
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import Icons from "../../components/Icons";
 
-import Icons from "../../components/Icons"
-
-import "./header.css"
+import "./header.css";
 
 const Header = () => {
+  const { t } = useTranslation();
+
   return (
     <header>
-      <Link to="/"><img src={Icons.igor} alt="" /></Link>
-        <nav>
-            <Link className="nav-link" to="/">Início</Link>
-            <Link className="nav-link" to="/proj">Projetos</Link>
-            <Link className="nav-link" to="/tech">Tecnologias</Link>
-            <Link className="nav-link" to="/sobre">Sobre mim</Link>
-        </nav>
+      <Link to="/"><img src={Icons.igor} alt="Logotipo" /></Link>
+      <nav>
+        <Link className="nav-link" to="/">{t('navbar.home')}</Link>
+        <Link className="nav-link" to="/proj">{t('navbar.projects')}</Link>
+        <Link className="nav-link" to="/tech">{t('navbar.tech')}</Link>
+        <Link className="nav-link" to="/sobre">{t('navbar.about')}</Link>
+      </nav>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

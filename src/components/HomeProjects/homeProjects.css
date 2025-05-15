@@ -30,7 +30,7 @@
     border: solid 1px var(--card-proj-border);
     background-color: var(--proj-card-bg);
     border-radius: 2rem;
-    transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.1s;
     display: flex;
     align-items: center;
 }
@@ -41,8 +41,9 @@
 }
 
 .proj-link:hover{
-    background-color: var(--card-bg-hover);
-    border: solid 1px var(--card-border-hover);
+    scale: 1.05;
+    background-color: var(--card-color);
+    border: solid 2px var(--card-bg-hover);
 }
 
 .home-cards{

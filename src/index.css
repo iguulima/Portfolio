@@ -50,3 +50,34 @@ html, body {
 a{
   text-decoration: none;
 }
+
+img{
+  pointer-events: none
+}
+
+.tooltip-container {
+  position: relative;
+}
+
+.tooltip {
+  width: max-content;
+  position: absolute;
+  bottom: calc(100% + 5px);
+  left: 50%;
+  z-index: 1;
+  transform: translateX(-50%) translateY(10px);
+  opacity: 0;
+  background-color: var(--card-color);
+  color: var(--text-principal);
+  border: solid 1px var(--purple-light);
+  font-weight: 600;
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.tooltip.visible {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}

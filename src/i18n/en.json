@@ -1,0 +1,91 @@
+{
+    "translation": {
+        "langTooltip": "EN-US",
+        "navbar": {
+            "home": "Home",
+            "projects": "Projects",
+            "tech": "Technologies",
+            "about": "About"
+        },
+        "home": {
+            "welcome": "Hello! I am",
+            "title": "Front-End Developer"
+        },
+        "projects-section": {
+            "title": "My Projects",
+            "description": "A showcase of my best work so far",
+            "button": "See more"
+        },
+        "projects-list": {
+            "1": {
+                "title": "App Usina São Domingos",
+                "description": "Mobile application to automate the control of rentals in plants, replacing manual spreadsheets with an efficient and real-time system.",
+                "tags": {
+                    "1": "Prototyping",
+                    "2": "Figma"
+                }
+            },
+            "2": {
+                "title": "E-commerce",
+                "description": "An online store with shopping cart and payment features.",
+                "tags": {
+                    "1": "React",
+                    "2": "Test"
+                }
+            }
+        },
+        "tech-section": {
+            "title": "Technologies",
+            "description": "Languages and tools that I use regularly in my daily routine",
+            "tech-list": {
+                "1": {
+                    "title": "ReactJS",
+                    "description": "JavaScript library for building interfaces"
+                },
+                "2": {
+                    "title": "JavaScript",
+                    "description": "Programming language for web development"
+                },
+                "3": {
+                    "title": "CSS",
+                    "description": "Styling language for page design"
+                },
+                "4": {
+                    "title": "Figma",
+                    "description": "Collaborative interface design tool"
+                },
+                "5": {
+                    "title": "HTML",
+                    "description": "Markup language for page structure"
+                },
+                "6": {
+                    "title": "Git",
+                    "description": "Version control system"
+                }
+            }
+        },
+        "exp-section": {
+            "title": "Experience",
+            "description": "My academic and professional journey, highlighting experiences and skills acquired.",
+            "work": "Professional",
+            "work-list": {
+                "1": {
+                    "title": "TECHNICAL SUPPORT AND ADMINISTRATIVE ASSISTANT",
+                    "company": "Automasoft",
+                    "description": "Provided support to clients, assisting with installation and updating of various programs. Additionally, processed invoices, monitored Service Orders, and managed the entry and exit of invoices.",
+                    "date": "Sep. 2024 - Jan. 2025"
+                }
+            },
+            "study": "Academic",
+            "study-list": {
+                "1": {
+                    "title": "INFORMATION TECHNOLOGY MANAGEMENT",
+                    "company": "Fatec Catanduva",
+                    "description": "Studied IT fundamentals including architecture, operating systems, and programming logic. Learned about systems development focusing on programming, databases, and web development. Also studied network administration, cloud computing, and servers. Additionally, deepened knowledge in agile methodologies such as Scrum and Kanban, and in IT service management practices with ITIL.",
+                    "date": "2023 - 2025"
+                }
+            }
+        }
+        
+    }
+}

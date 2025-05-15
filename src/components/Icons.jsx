@@ -2,7 +2,8 @@ import figmaIcon from '../assets/icons/figma.svg'
 import vscodeIcon from '../assets/icons/vscode.svg'
 import igorIcon from "../assets/icons/logo.svg"
 import cogIcon from "../assets/icons/cog.svg"
-import flagIcon from "../assets/icons/br-flag.svg"
+import brFlagIcon from "../assets/icons/brFlag.svg"
+import usFlagIcon from "../assets/icons/usFlag.svg"
 import locIcon from "../assets/icons/loc-dot.svg"
 import reactIcon from "../assets/icons/react.svg"
 import jsIcon from "../assets/icons/js.svg"
@@ -23,7 +24,8 @@ const Icons = {
     vscode: vscodeIcon,
     igor: igorIcon,
     cog: cogIcon,
-    flag: flagIcon,
+    brFlag: brFlagIcon,
+    usFlag: usFlagIcon,
     loc: locIcon,
     react: reactIcon,
     js: jsIcon,

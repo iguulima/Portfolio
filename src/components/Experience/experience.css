@@ -62,29 +62,20 @@
 .exp-scontent{
     margin-bottom: 5vh;
 }
-
-.exp-content h3{
-    margin: 1vw 0;
-}
-
-.exp-content h5{
-    margin: 0 1vw;
-}
-
-.exp-scontent ul{
-    margin: 1vw;
-    color: var(--text-secondary);
-    font-weight: 500;
-}
-
-.exp-scontent li{
-    font-size: 0.8rem;
-    margin: 1vh 0;
-}
-
-.exp-scontent li>span{
-    color: var(--text-principal);	
+.exp-scontent h3{
     font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 1vh;
+}
+.exp-scontent h4{
+    font-weight: 600;
+    margin-top: 0;
+    color: var(--text-secondary);
+}
+.exp-scontent h5{
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
 }
 
 @media(max-width: 1024px){

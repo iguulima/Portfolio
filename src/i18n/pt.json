@@ -1,0 +1,91 @@
+{
+    "translation": {
+        "langTooltip": "PT-BR",
+        "navbar": {
+            "home": "Início",
+            "projects": "Projetos",
+            "tech": "Tecnologias",
+            "about": "Sobre"
+        },
+        "home": {
+            "welcome": "Olá! sou",
+            "title": "Desenvolvedor Front-End"
+        },
+        "projects-section": {
+            "title": "Meus Projetos",
+            "description": "Uma amostra dos meus melhores trabalhos até agora",
+            "button": "Ver mais"
+        },
+        "projects-list": {
+            "1": {
+                "title": "App Usina São Domingos",
+                "description": "Aplicativo mobile para automatizar o controle de locações em usinas, substituindo planilhas manuais por um sistema eficiente e em tempo real.",
+                "tags":{
+                    "1": "Prototipagem",
+                    "2": "Figma"
+                }
+            },
+            "2": {
+                "title": "E-commerce",
+                "description": "Uma loja online com recursos de carrinho de compras e pagamento.",
+                "tags":{
+                    "1": "React",
+                    "2": "Teste"
+                }
+            }
+        },
+        "tech-section": {
+            "title": "Tecnologias",
+            "description": "Linguagens e Programas que utilizo regularmente no meu dia a dia",
+            "tech-list":{
+                "1": {
+                    "title": "ReactJS",
+                    "description": "Biblioteca JavaScript para construção de interfaces"
+                },
+                "2": {
+                    "title": "JavaScript",
+                    "description": "Linguagem de programação para desenvolvimento web"
+                },
+                "3": {
+                    "title": "CSS",
+                    "description": "Linguagem de estilo para estilização"
+                },
+                "4": {
+                    "title": "Figma",
+                    "description": "Interface de design colaborativa"
+                },
+                "5": {
+                    "title": "HTML",
+                    "description": "Linguagem de marcação para estruturação de páginas"
+                },
+                "6": {
+                    "title": "Git",
+                    "description": "Sistema de controle de versão"
+                }
+            }
+        },
+        "exp-section":{
+            "title": "Experiência",
+            "description": "Minha trajetória acadêmica e profissional, destacando experiências e habilidades adquiridas.",
+            "work": "Profissional",
+            "work-list":{
+                "1":{
+                    "title": "SUPORTE TÉCNICO E ASSISTENTE ADMINISTRATIVO",
+                    "company": "Automasoft",
+                    "description": "Prestei suporte para clientes, auxiliando na instalação e atualização de programas diversos. Além disso, realizei o processamento de faturas, acompanhei Ordens de Serviço e administrei a entrada e saída de notas fiscais.",
+                    "date": "Set. 2024 - Jan. 2025"
+                }
+            },
+            "study":"Acadêmica",
+            "study-list":{
+                "1":{
+                    "title": "GESTÃO DE TECNOLOGIA DA INFORMAÇÃO",
+                    "company": "Fatec Catanduva",
+                    "description": "Estudei fundamentos de TI, incluindo arquitetura, sistemas operacionais e lógica de programação. Aprendi sobre desenvolvimento de sistemas, com foco em programação, bancos de dados e web. Também estudei administração de redes, computação em nuvem e servidores. Além disso, me aprofundei em metodologias ágeis como Scrum e Kanban, e em práticas de gestão de serviços de TI com ITIL.",
+                    "date": "2023 - 2025"
+                }
+            }
+        }
+        
+    }
+}
