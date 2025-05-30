@@ -18,12 +18,15 @@ function Experience() {
     };
   }
   return {
-    backgroundColor: isHovered ? '#151617bf' : 'transparent',
+    backgroundColor: isHovered ? '#1a1b1cbf' : 'transparent',
     color:'#b597ec',
     cursor: 'pointer',
     transition: 'background 0.2s, color 0.3s',
   };
 };
+
+  const exp = [1]
+
 
   return (
     <div className="exp-main">
@@ -54,37 +57,43 @@ function Experience() {
       <div className="exp-content">
         {experience === 1 ? (
           <div className="exp-cards">
-            <div className="exp-scontent">
-              <h3>{t('exp-section.work-list.1.title')}</h3>
-              <div>
-                <h4>
-                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier"></g><g id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"><path d="M11 11H6.2C5.07989 11 4.51984 11 4.09202 11.218C3.71569 11.4097 3.40973 11.7157 3.21799 12.092C3 12.5198 3 13.0799 3 14.2V21M21 21V6.2C21 5.0799 21 4.51984 20.782 4.09202C20.5903 3.71569 20.2843 3.40973 19.908 3.21799C19.4802 3 18.9201 3 17.8 3H14.2C13.0799 3 12.5198 3 12.092 3.21799C11.7157 3.40973 11.4097 3.71569 11.218 4.09202C11 4.51984 11 5.0799 11 6.2V21M22 21H2M14.5 7H17.5M14.5 11H17.5M14.5 15H17.5" stroke="#976ce4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path></g></svg>
-                  {t('exp-section.work-list.1.company')}
-                </h4>
-                <h4>
-                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier"></g><g id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path d="M3 10H21M7 3V5M17 3V5M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z" stroke="#976ce4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-                  {t('exp-section.work-list.1.date')} 
-                </h4>
+              {exp.map((exp) => (
+                <div className="exp-scontent">
+                  <h3>{t(`exp-section.work-list.${exp}.title`)}</h3>
+                  <div>
+                    <h4>
+                      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier"></g><g id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"><path d="M11 11H6.2C5.07989 11 4.51984 11 4.09202 11.218C3.71569 11.4097 3.40973 11.7157 3.21799 12.092C3 12.5198 3 13.0799 3 14.2V21M21 21V6.2C21 5.0799 21 4.51984 20.782 4.09202C20.5903 3.71569 20.2843 3.40973 19.908 3.21799C19.4802 3 18.9201 3 17.8 3H14.2C13.0799 3 12.5198 3 12.092 3.21799C11.7157 3.40973 11.4097 3.71569 11.218 4.09202C11 4.51984 11 5.0799 11 6.2V21M22 21H2M14.5 7H17.5M14.5 11H17.5M14.5 15H17.5" stroke="#976ce4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path></g></svg>
+                      {t(`exp-section.work-list.${exp}.company`)}
+                    </h4>
+                    <h4>
+                      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier"></g><g id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <path d="M3 10H21M7 3V5M17 3V5M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z" stroke="#976ce4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                      {t('exp-section.work-list.1.date')} 
+                    </h4>
+                  </div>
+                  <h5>{t(`exp-section.work-list.${exp}.description`)}</h5>
+                  <hr style={{width: "90%", margin: "10vh auto", border: "solid 1px var(--bar-border)"}} />
                 </div>
-              <h5>{t('exp-section.work-list.1.description')}</h5>
-            </div>
+              ))}
           </div>
         ) : (
           <div>
+            {exp.map((exp) => (
             <div className="exp-scontent">
-              <h3>{t('exp-section.study-list.1.title')}</h3>
+              <h3>{t(`exp-section.study-list.${exp}.title`)}</h3>
               <div>
                 <h4>
                   <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M11 11H6.2C5.07989 11 4.51984 11 4.09202 11.218C3.71569 11.4097 3.40973 11.7157 3.21799 12.092C3 12.5198 3 13.0799 3 14.2V21M21 21V6.2C21 5.0799 21 4.51984 20.782 4.09202C20.5903 3.71569 20.2843 3.40973 19.908 3.21799C19.4802 3 18.9201 3 17.8 3H14.2C13.0799 3 12.5198 3 12.092 3.21799C11.7157 3.40973 11.4097 3.71569 11.218 4.09202C11 4.51984 11 5.0799 11 6.2V21M22 21H2M14.5 7H17.5M14.5 11H17.5M14.5 15H17.5" stroke="#976ce4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path></g></svg>
-                  {t('exp-section.study-list.1.company')}
+                  {t(`exp-section.study-list.${exp}.company`)}
                 </h4>
                 <h4>
                   <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 10H21M7 3V5M17 3V5M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z" stroke="#976ce4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-                  {t('exp-section.study-list.1.date')} 
+                  {t(`exp-section.study-list.${exp}.date`)} 
                 </h4>
                 </div>
-              <h5>{t('exp-section.study-list.1.description')}</h5>
+              <h5>{t(`exp-section.study-list.${exp}.description`)}</h5>
+              <hr style={{width: "90%", margin: "10vh auto", border: "solid 1px var(--bar-border)"}} />
             </div>
+            ))}
           </div>
         )}
       </div>
