@@ -10,12 +10,12 @@ const Header = () => {
   return (
     <header>
       <Link to="/"><img src={Icons.igor} alt="Logotipo" /></Link>
-      <nav>
+      {/* <nav>
         <Link className="nav-link" to="/">{t('navbar.home')}</Link>
         <Link className="nav-link" to="/proj">{t('navbar.projects')}</Link>
         <Link className="nav-link" to="/tech">{t('navbar.tech')}</Link>
         <Link className="nav-link" to="/sobre">{t('navbar.about')}</Link>
-      </nav>
+      </nav> */}
     </header>
   );
 };

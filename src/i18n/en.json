@@ -16,7 +16,9 @@
         "projects-section": {
             "title": "My Projects",
             "description": "A showcase of my best work so far",
-            "button": "See more"
+            "button": "See more",
+            "linkButton": "View Project"
+
         },
         "projects-list": {
             "1": {
@@ -28,11 +30,11 @@
                 }
             },
             "2": {
-                "title": "E-commerce",
-                "description": "An online store with shopping cart and payment features.",
+                "title": "TechSolve",
+                "description": "Prototype developed to connect clients with service providers through an intelligent platform, featuring chat, service history, and an AI-based assistant for suggestions.",
                 "tags": {
-                    "1": "React",
-                    "2": "Test"
+                    "1": "Prototyping",
+                    "2": "Figma"
                 }
             }
         },

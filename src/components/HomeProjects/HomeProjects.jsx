@@ -7,8 +7,8 @@ import { useTranslation } from 'react-i18next'
 import './homeProjects.css'
 
 //Imagens
-import tgImg from '../../assets/images/tg.png'
 import usdImg from '../../assets/images/UsdApp.png'
+import interImg from '../../assets/images/interImg.png'
 
 const HomeProjects = () => {
   const { t } = useTranslation();
@@ -31,7 +31,7 @@ const HomeProjects = () => {
         description={t('projects-list.1.description')}
         tags={[t('projects-list.1.tags.1'), t('projects-list.1.tags.2')]}
         image={usdImg}
-        link="/proj/usd"
+        link="https://www.figma.com/design/OZQxaf9kJH8lQaZcS0lBM8/TG-Sao-Domingos?node-id=0-1&t=KigqONukGgdslG9y-11"
         style={{ width: "40vw" }}
       />
 
@@ -39,8 +39,8 @@ const HomeProjects = () => {
           title={t('projects-list.2.title')}
           description={t('projects-list.2.description')}
           tags={[t('projects-list.2.tags.1'), t('projects-list.2.tags.2')]}
-          image={tgImg}
-          link="/proj/usd"
+          image={interImg}
+          link="https://www.figma.com/design/7IGA92KVU0oHQWVvUieu1Z/Inter?node-id=2-17&p=f&t=tZBmhH7wXD63Pt09-0"
           style={{ width: "40vw" }}
         />
       </div>
