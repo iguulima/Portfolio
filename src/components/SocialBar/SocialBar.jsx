@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next'
 
 import '../../i18n/i18n';
 
+
 import './social.css'
 
 const SocialBar = () => {
@@ -37,7 +38,7 @@ const SocialBar = () => {
           <a href="https://www.linkedin.com/in/igorlima-s" target="_black" rel="noopener noreferrer"><img src={Icons.linkedinBar} alt="Icone do LinkedIn" /></a>
         </Tooltip>
         <Tooltip text={"Email"}>
-          <a href="" target="_black" rel="noopener noreferrer"><img src={Icons.mailBar} alt="Icone do Email" /></a>
+          <a href="mailto:igorlima7194@gmail.com" target="_black" rel="noopener noreferrer"><img src={Icons.mailBar} alt="Icone do Email" /></a>
         </Tooltip>
         <Tooltip text={t('resumeTooltip')}>
           <a href="/curriculo.pdf" target="_blank" rel="noopener noreferrer"><img src={Icons.resumeBar} alt="Icone do Curriculo" /></a>
