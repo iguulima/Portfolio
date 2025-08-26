@@ -15,7 +15,7 @@ const HomeTech = () => {
     },
     {
       id: 2,
-      icon: Icons.js,
+      icon: Icons.ts,
       link: "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
       size: 25,
     },
@@ -33,7 +33,7 @@ const HomeTech = () => {
     },
     {
       id: 5,
-      icon: Icons.html,
+      icon: Icons.reactNative,
       link: "https://developer.mozilla.org/pt-BR/docs/Web/HTML",
       size: 30,
     },

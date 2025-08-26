@@ -3,6 +3,7 @@
         "homeTooltip": "Home",
         "resumeTooltip": "Resume",
         "langTooltip": "EN",
+
         "navbar": {
             "home": "Home",
             "projects": "Projects",
@@ -10,7 +11,7 @@
             "about": "About"
         },
         "home": {
-            "welcome": "Hello! I am",
+            "welcome": "Hi! I'm",
             "title": "Front-End Developer"
         },
         "projects-section": {
@@ -18,12 +19,11 @@
             "description": "A showcase of my best work so far",
             "button": "See more",
             "linkButton": "View Project"
-
         },
         "projects-list": {
             "1": {
-                "title": "App Usina São Domingos",
-                "description": "Mobile application to automate the control of rentals in plants, replacing manual spreadsheets with an efficient and real-time system.",
+                "title": "Usina São Domingos App",
+                "description": "Mobile application to automate rental control in power plants, replacing manual spreadsheets with an efficient real-time system.",
                 "tags": {
                     "1": "Prototyping",
                     "2": "Figma"
@@ -31,7 +31,7 @@
             },
             "2": {
                 "title": "TechSolve",
-                "description": "Prototype developed to connect clients with service providers through an intelligent platform, featuring chat, service history, and an AI-based assistant for suggestions.",
+                "description": "Prototype developed to connect clients with service providers through an intelligent platform, featuring chat, service history, and an AI assistant for suggestions.",
                 "tags": {
                     "1": "Prototyping",
                     "2": "Figma"
@@ -40,27 +40,27 @@
         },
         "tech-section": {
             "title": "Technologies",
-            "description": "Languages and tools that I use regularly in my daily routine",
+            "description": "Languages and tools I regularly use in my daily work",
             "tech-list": {
                 "1": {
                     "title": "ReactJS",
-                    "description": "JavaScript library for building interfaces"
+                    "description": "JavaScript library for building user interfaces"
                 },
                 "2": {
-                    "title": "JavaScript",
-                    "description": "Programming language for web development"
+                    "title": "TypeScript",
+                    "description": "JavaScript superset that adds static typing, improving code reliability"
                 },
                 "3": {
                     "title": "CSS",
-                    "description": "Styling language for page design"
+                    "description": "Styling language for design and layout"
                 },
                 "4": {
                     "title": "Figma",
                     "description": "Collaborative interface design tool"
                 },
                 "5": {
-                    "title": "HTML",
-                    "description": "Markup language for page structure"
+                    "title": "React Native",
+                    "description": "Framework for building cross-platform mobile applications"
                 },
                 "6": {
                     "title": "Git",
@@ -74,22 +74,21 @@
             "work": "Professional",
             "work-list": {
                 "1": {
-                    "title": "TECHNICAL SUPPORT AND ADMINISTRATIVE ASSISTANT",
+                    "title": "Technical Support & Administrative Assistant",
                     "company": "Automasoft",
-                    "description": "Provided support to clients, assisting with installation and updating of various programs. Additionally, processed invoices, monitored Service Orders, and managed the entry and exit of invoices.",
+                    "description": "Provided customer support, assisting with the installation and updating of various programs. Additionally, I processed invoices, monitored service orders, and managed the entry and exit of invoices.",
                     "date": "Jun. 2024 - Jan. 2025"
                 }
             },
             "study": "Academic",
             "study-list": {
                 "1": {
-                    "title": "INFORMATION TECHNOLOGY MANAGEMENT",
+                    "title": "Information Technology Management",
                     "company": "Fatec Catanduva",
-                    "description": "Studied IT fundamentals including architecture, operating systems, and programming logic. Learned about systems development focusing on programming, databases, and web development. Also studied network administration, cloud computing, and servers. Additionally, deepened knowledge in agile methodologies such as Scrum and Kanban, and in IT service management practices with ITIL.",
+                    "description": "Studied IT fundamentals, including architecture, operating systems, and programming logic. Learned about system development with a focus on programming, databases, and web technologies. Also studied network administration, cloud computing, and servers. In addition, I explored agile methodologies such as Scrum and Kanban, as well as IT service management practices with ITIL.",
                     "date": "2023 - 2025"
                 }
             }
         }
-        
     }
 }

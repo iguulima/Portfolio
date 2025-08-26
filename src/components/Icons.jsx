@@ -10,6 +10,8 @@ import jsIcon from "../assets/icons/js.svg"
 import gitIcon from "../assets/icons/git.svg"
 import htmlIcon from "../assets/icons/html.svg"
 import cssIcon from "../assets/icons/css.svg"
+import tsIcon from "../assets/icons/ts.svg"
+import reactNativeIcon from "../assets/icons/react-native.svg"
 
 import homeBar from "../assets/icons/home.svg"
 import githubBar from "../assets/icons/github.svg"
@@ -32,6 +34,8 @@ const Icons = {
     git: gitIcon,
     html: htmlIcon,
     css: cssIcon,
+    ts: tsIcon,
+    reactNative: reactNativeIcon,
 
     homeBar: homeBar,
     githubBar: githubBar,

@@ -29,7 +29,7 @@ function App() {
           <Route path='/proj' element={<Projects />} />
           <Route path='/tech' element={<Tech />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </div>
   );
