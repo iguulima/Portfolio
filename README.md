@@ -1,15 +1,21 @@
-# Portfólio
+# Portfólio — Igor Lima
 
-Este é o meu próprio portfólio que está sendo desenvolvido principalmente para o meu estudo pessoal em React para aprofundamento do meu conteúdo Front-End
+Portfólio pessoal de Product Design e UX/UI desenvolvido com Next.js, React e TypeScript.
 
-## 🚀 Tecnologias Utilizadas
+## Desenvolvimento
 
-* **React** - Biblioteca para construção de interfaces.
-* **React Router** - Gerenciamento de rotas da aplicação.
-* **CSS** - Estilização customizada sem dependências externas.
-* **Vite** - Ferramenta de build rápida e leve para projetos frontend.
-* **i18n do React** - Internacionalização para múltiplos idiomas.
+```bash
+npm install
+npm run dev
+```
 
----
+Abra `http://localhost:3000` no navegador.
 
-Feito com 💙 por Igor.
+## Verificação
+
+```bash
+npm run lint
+npm run build
+```
+
+Os projetos e experiências provisórios ficam centralizados em `data/portfolio.ts` para serem substituídos pelos dados reais sem alterar os componentes.
