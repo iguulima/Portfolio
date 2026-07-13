@@ -3,58 +3,49 @@ export type Project = {
   title: string;
   year: string;
   tags: string[];
-  gradient: string;
+  gradient?: string;
+  background?: string;
+  image?: string;
+  heroImage?: string;
   variant: "timer" | "polaroid" | "chart";
   description: string;
   challenge: string;
   solution: string;
   contributions: string[];
+  overview?: string[];
+  clientFeatures?: string[];
+  providerFeatures?: string[];
+  results?: { value: string; label: string }[];
+  learnings?: string[];
   tools: string[];
   links: { label: string; url: string }[];
 };
 
 export const projects: Project[] = [
   {
-    id: "pulse",
-    title: "Pulse Focus",
+    id: "techsolve",
+    title: "TechSolve",
     year: "2025",
-    tags: ["Mobile", "Gamificação"],
-    gradient: "linear-gradient(135deg,#232b52,#141a33)",
+    tags: ["Aplicativo mobile", "UX/UI Design"],
+    background: "#141a33",
+    image: "/techsolve-mockup.png",
+    heroImage: "/techsolve-screens-showcase-dark.png",
     variant: "timer",
-    description: "Aplicativo de produtividade com timer pomodoro gamificado, sistema de níveis, streaks e acompanhamento de foco.",
-    challenge: "Apps de pomodoro tradicionais são abandonados rapidamente. O desafio era transformar sessões de foco em um hábito prazeroso.",
-    solution: "Uma camada de gamificação sobre uma experiência de foco minimalista, com XP, streaks e conquistas.",
-    contributions: ["Pesquisa e benchmark", "Fluxos e wireframes", "Interface e protótipo", "Testes de usabilidade"],
-    tools: ["Figma", "FigJam", "Protopie"],
-    links: [{ label: "Ver protótipo", url: "#" }, { label: "Repositório", url: "#" }],
-  },
-  {
-    id: "polaroid",
-    title: "Polaroid Studio",
-    year: "2025",
-    tags: ["Mobile", "Edição"],
-    gradient: "linear-gradient(135deg,#3a2e45,#141a33)",
-    variant: "polaroid",
-    description: "Aplicativo de criação de polaroids digitais com edição de fotos, textos personalizados e templates visuais.",
-    challenge: "Editores tradicionais têm uma curva de aprendizado alta para quem busca um resultado estético rápido.",
-    solution: "Um fluxo simples de foto, template e texto, com preview em tempo real e ajustes opcionais.",
-    contributions: ["Benchmark e moodboard", "Arquitetura do fluxo", "Biblioteca de templates", "Protótipo de alta fidelidade"],
-    tools: ["Figma", "Photoshop"],
-    links: [{ label: "Ver no Figma", url: "#" }],
-  },
-  {
-    id: "soundscope",
-    title: "SoundScope",
-    year: "2025",
-    tags: ["Dashboard", "Data Viz"],
-    gradient: "linear-gradient(135deg,#1e3140,#141a33)",
-    variant: "chart",
-    description: "Dashboard de analytics musicais com gráficos semanais, ranking de gêneros e acompanhamento de hábitos musicais.",
-    challenge: "Dados de streaming são abundantes, mas dispersos e difíceis de interpretar sem contexto.",
-    solution: "Um dashboard com resumo semanal, tendências e rankings organizados por perguntas do usuário.",
-    contributions: ["Definição das perguntas-chave", "Sistema de data visualization", "Dashboard responsivo", "Handoff documentado"],
+    description: "Projeto acadêmico interdisciplinar de um marketplace mobile criado para conectar usuários domésticos a profissionais de serviços técnicos e de manutenção.",
+    overview: [
+      "O TechSolve nasceu da proposta de desenvolver uma ideia original de produto digital. A solução reuniu em uma única experiência a descoberta de profissionais, o contato, o pré-orçamento, a contratação e o acompanhamento do serviço.",
+      "O produto foi estruturado para dois perfis de usuário. Clientes buscavam assistência confiável e prestadores utilizavam a plataforma como uma central para encontrar novos clientes e gerenciar seus atendimentos.",
+      "A interface reflete uma fase inicial da minha trajetória no Figma. O valor deste case está principalmente na estruturação de um produto extenso, na organização das jornadas e na construção colaborativa de um protótipo de grande escala.",
+    ],
+    challenge: "Organizar dezenas de funcionalidades e duas jornadas distintas sem perder a compreensão do produto.",
+    solution: "Uma experiência de marketplace que acompanha clientes e prestadores desde o primeiro acesso até o pagamento e a avaliação do serviço.",
+    clientFeatures: ["Pesquisa e comparação de profissionais", "Perfis, certificações e avaliações", "Chat e recebimento de pré-orçamento", "Pagamentos, cartões, cupons e notificações", "Acompanhamento e avaliação dos serviços"],
+    providerFeatures: ["Recebimento de novas solicitações", "Organização dos atendimentos", "Perfil profissional, certificados e portfólio", "Gestão de informações e histórico", "Planos premium, taxas e relatórios"],
+    contributions: ["Participação na concepção da ideia e definição das funcionalidades", "Estruturação dos fluxos de clientes e prestadores", "Criação da maior parte das telas e modais no Figma", "Desenvolvimento e conexão do protótipo navegável", "Criação de componentes simples com variantes", "Refinamento contínuo a partir dos feedbacks do grupo e do professor", "Preparação do protótipo para a apresentação acadêmica"],
+    results: [{ value: "≈ 80", label: "telas e modais" }, { value: "≈ 20", label: "componentes com variantes" }, { value: "02", label: "perfis de usuário" }, { value: "05", label: "integrantes no grupo" }],
+    learnings: ["O projeto foi uma das minhas primeiras experiências criando um produto digital de maior escala. Durante o processo, desenvolvi minha capacidade de organizar funcionalidades, estruturar jornadas para públicos diferentes e transformar uma ideia ampla em uma experiência visualmente compreensível.", "A quantidade de fluxos tornou o projeto maior do que o previsto e exigiu que o grupo acelerasse as etapas finais. Hoje eu abordaria essa complexidade com uma definição de escopo mais rígida, priorização dos fluxos essenciais e validações mais frequentes ao longo do processo."],
     tools: ["Figma", "FigJam"],
-    links: [{ label: "Ver projeto", url: "#" }, { label: "Repositório", url: "#" }],
+    links: [{ label: "Ver protótipo", url: "#" }],
   },
 ];
 

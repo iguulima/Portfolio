@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { experience, projects } from "@/data/portfolio";
 import { ArrowUpRight, Briefcase, GitHub, Graduation, LinkedIn, Mail } from "./Icons";
 import ProjectArtwork from "./ProjectArtwork";
@@ -113,7 +114,7 @@ export default function Portfolio() {
                   onBlur={() => setHoveredProject(null)}
                   aria-label={`Abrir projeto ${project.title}`}
                 >
-                  <div className="thumbnail"><span className="badge">{project.year}</span><div className="thumbnailArt" style={{ background: project.gradient }}><ProjectArtwork variant={project.variant}/></div></div>
+                  <div className="thumbnail"><span className="badge">{project.year}</span><div className="thumbnailArt" style={{ background: project.gradient }}>{project.image ? <Image className="thumbnailImage" src={project.image} alt={`Mockup do projeto ${project.title}`} fill sizes="(max-width: 620px) 100vw, 50vw" priority /> : <ProjectArtwork variant={project.variant}/>}</div></div>
                   <div className="projectMeta"><div><h3>{project.title}</h3></div><span aria-hidden="true"><ArrowUpRight size={18}/></span></div>
                 </Link>
               ))}

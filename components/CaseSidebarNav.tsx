@@ -4,10 +4,11 @@ import { useEffect, useState } from "react";
 
 const sections = [
   { id: "overview", label: "Visão geral" },
-  { id: "problema", label: "Problema" },
-  { id: "solucao", label: "Solução" },
-  { id: "processo", label: "Processo" },
-  { id: "ferramentas", label: "Ferramentas" },
+  { id: "desafio", label: "Desafio" },
+  { id: "produto", label: "O produto" },
+  { id: "participacao", label: "Participação" },
+  { id: "resultado", label: "Resultado" },
+  { id: "aprendizados", label: "Aprendizados" },
 ];
 
 export default function CaseSidebarNav({ title, year }: { title: string; year: string }) {
