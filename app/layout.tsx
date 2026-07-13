@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Igor Lima — Product Designer UX/UI",
+  title: "Igor Lima",
   description: "Portfólio de Igor Lima, Product Designer especializado em UX/UI.",
 };
 
