@@ -46,12 +46,6 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             <span className="caseLabel">/ Visão geral</span>
             <h1>{project.title}</h1>
             <p className="caseLead">{project.description}</p>
-            <div className="caseFacts">
-              <div><span>Papel</span><p>UX/UI Designer</p><p>Prototipação</p></div>
-              <div><span>Período</span><p>{project.year}</p></div>
-              <div><span>Contexto</span><p>Projeto acadêmico</p><p>Equipe de 5 pessoas</p></div>
-              <div><span>Escopo</span><p>Produto mobile</p><p>Dois perfis de usuário</p></div>
-            </div>
             <div className="caseLinks">{project.links.map((link) => <a href={link.url} target="_blank" rel="noreferrer" key={link.label}>{link.label}<ArrowUpRight size={15}/></a>)}</div>
             <div className="caseNarrative">{project.overview?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
           </section>
@@ -93,6 +87,34 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             <div className="caseTools">{project.tools.map((tool) => <b key={tool}>{tool}</b>)}</div>
           </section>
         </article>
+
+        <aside className="caseDetails" aria-label="Detalhes do projeto">
+          <span className="caseDetailsLabel">Ficha do projeto</span>
+          <div className="caseDetailsList">
+            <div><span>Papel</span><p>UX/UI Designer</p><p>Prototipação</p></div>
+            <div><span>Período</span><p>{project.year}</p></div>
+            <div><span>Contexto</span><p>Projeto acadêmico</p><p>Equipe de 4 pessoas</p></div>
+            <div><span>Escopo</span><p>Produto mobile</p><p>Dois perfis de usuário</p></div>
+          </div>
+          {project.participants?.length ? (
+            <div className="caseParticipants">
+              <span>Participantes</span>
+              <div>
+                {project.participants.map((participant) => (
+                  <a
+                    href={participant.linkedin}
+                    target="_blank"
+                    rel="noreferrer"
+                    key={participant.linkedin}
+                    aria-label={`LinkedIn de ${participant.name}`}
+                  >
+                    {participant.name}<ArrowUpRight size={13}/>
+                  </a>
+                ))}
+              </div>
+            </div>
+          ) : null}
+        </aside>
       </div>
     </main>
   );

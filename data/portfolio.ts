@@ -18,6 +18,7 @@ export type Project = {
   results?: { value: string; label: string }[];
   learnings?: string[];
   tools: string[];
+  participants?: { name: string; linkedin: string }[];
   links: { label: string; url: string }[];
 };
 
@@ -45,7 +46,13 @@ export const projects: Project[] = [
     results: [{ value: "≈ 80", label: "telas e modais" }, { value: "≈ 20", label: "componentes com variantes" }, { value: "02", label: "perfis de usuário" }, { value: "05", label: "integrantes no grupo" }],
     learnings: ["O projeto foi uma das minhas primeiras experiências criando um produto digital de maior escala. Durante o processo, desenvolvi minha capacidade de organizar funcionalidades, estruturar jornadas para públicos diferentes e transformar uma ideia ampla em uma experiência visualmente compreensível.", "A quantidade de fluxos tornou o projeto maior do que o previsto e exigiu que o grupo acelerasse as etapas finais. Hoje eu abordaria essa complexidade com uma definição de escopo mais rígida, priorização dos fluxos essenciais e validações mais frequentes ao longo do processo."],
     tools: ["Figma", "FigJam"],
-    links: [{ label: "Ver protótipo", url: "#" }],
+    participants: [
+      { name: "Igor Lima", linkedin: "https://www.linkedin.com/in/igorlima-s/" },
+      { name: "Bruno Calera", linkedin: "https://www.linkedin.com/in/bruno-calera/" },
+      { name: "Kaik Silva", linkedin: "https://www.linkedin.com/in/kaiksilva/" },
+      { name: "Renan Morata", linkedin: "https://www.linkedin.com/in/renan-morata-025580333/" },
+    ],
+    links: [{ label: "Ver protótipo", url: "https://www.figma.com/proto/7IGA92KVU0oHQWVvUieu1Z/TechSolve?node-id=2-23&t=14hs2aNVW6A0fSMm-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=343%3A924&show-proto-sidebar=1&page-id=2%3A17" }],
   },
 ];
 

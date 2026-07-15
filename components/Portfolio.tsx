@@ -90,7 +90,7 @@ export default function Portfolio() {
               <div className="heroRoleRow"><p className="heroRole">Analista de Requisitos · UX/UI</p></div>
             </div>
             <div className="heroActions">
-              <a className="button" href="/curriculo.pdf" target="_blank">Ver Currículo <ArrowUpRight size={16}/></a>
+              <a className="button" href="/Igor%20Lima%20-%20Curriculo.pdf" target="_blank">Ver Currículo <ArrowUpRight size={16}/></a>
               <a className="iconLink" href="https://github.com/iguulima" target="_blank" rel="noreferrer" aria-label="GitHub"><GitHub/></a>
               <a className="iconLink" href="https://linkedin.com/in/igorlima-s" target="_blank" rel="noreferrer" aria-label="LinkedIn"><LinkedIn/></a>
               <a className="iconLink" href="#contato" aria-label="E-mail"><Mail/></a>
@@ -102,7 +102,7 @@ export default function Portfolio() {
 
         <section className={`projects darkSection ${hoveredProject ? "focusMode" : ""}`} id="projetos">
           <div className="wrap">
-            <div className="projectGrid cards--poster">
+            <div className={`projectGrid cards--posterSoft ${projects.length === 1 ? "singleProjectGrid" : ""}`}>
               {projects.map((project) => (
                 <Link
                   className={`projectCard projectCardVisible ${hoveredProject === project.id ? "focused" : ""}`}
@@ -115,7 +115,7 @@ export default function Portfolio() {
                   aria-label={`Abrir projeto ${project.title}`}
                 >
                   <div className="thumbnail"><span className="badge">{project.year}</span><div className="thumbnailArt" style={{ background: project.gradient }}>{project.image ? <Image className="thumbnailImage" src={project.image} alt={`Mockup do projeto ${project.title}`} fill sizes="(max-width: 620px) 100vw, 50vw" priority /> : <ProjectArtwork variant={project.variant}/>}</div></div>
-                  <div className="projectMeta"><div><h3>{project.title}</h3></div><span aria-hidden="true"><ArrowUpRight size={18}/></span></div>
+                  <div className="projectMeta"><div><small>{project.tags[0]}</small><h3>{project.title}</h3></div><span aria-hidden="true"><ArrowUpRight size={18}/></span></div>
                 </Link>
               ))}
             </div>
